@@ -1,0 +1,885 @@
+/* HEADER  */
+body{
+    overflow-x: hidden;
+}
+
+
+
+.navbar {
+    width: 100%;
+    height: 5rem;
+    background: rgba(16, 16, 16, 0.65);
+    position: absolute;
+   
+    padding: 0;
+    display: flex;
+    
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.navbar ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    align-items: center;
+
+}
+
+.navbar li {
+    position: relative;
+    box-sizing: border-box;
+}
+
+.navbar .active {
+    color: yellowgreen;
+}
+
+.navbar li a {
+    margin: .1rem;
+    padding: .1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .1rem 1.5rem;
+    color: rgb(255, 238, 238);
+    white-space: nowrap;
+    transition: 0.3s;
+    font-size: .8rem;
+    font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: .1rem;
+}
+
+.navbar a {
+
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+
+
+/* PAGE-1 IMG  */
+
+.hero {
+    opacity: 1;
+    font-weight: 600;
+    width: 100vw;
+    height: 100vh;
+
+    background: url(https://bootstrapmade.com/demo/templates/Laura/assets/img/hero-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    
+
+    position: relative;
+}
+
+.hero h1 {
+    margin: 0 0 1rem 0;
+    font-size: 3.4rem;
+    font-family: "Satisfy", serif;
+    color: white;
+}
+
+.hero h2 {
+    color: white;
+    margin-bottom: 5rem;
+    font-size: 1.3rem;
+    font-weight: 500;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+}
+
+
+
+.hero-container {
+    
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 1.5rem;
+    background: rgba(0, 0, 0, 0.65);
+    position: absolute;
+}
+
+.hero a {
+    color: white;
+    font-weight: 700;
+    font-size: -webkit-xxx-large;
+}
+
+/* MAIN-ABOUT ME  */
+.container {
+    width: 100vw;
+    padding-top: 4rem;
+    position: relative;
+    z-index: 2;
+}
+
+.div-68 span {
+    position: absolute;
+    top: 5rem;
+    color:  #deebf5;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    font-weight: 700;
+    font-size: 8rem;
+    text-transform: uppercase;
+    line-height: 0;
+}
+
+.div-68 h2 {
+    font-size: 6rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+    padding-bottom: 0;
+    color: #3b434a;
+    position: relative;
+    z-index: 2;
+}
+
+.image img {
+
+    width: 100%;
+    height: 100%;
+    height:42rem;
+    background: no-repeat;
+    background-size: cover;
+    min-height: 39rem;
+    padding-bottom: 3rem;
+
+
+}
+
+.name ul {
+    list-style: none;
+    padding: 0;
+
+}
+
+.name ul li {
+    margin-bottom: 1.2rem;
+    display: flex;
+    align-items: center;
+
+}
+
+
+.name ul li i {
+    font-size: 1.6rem;
+    margin-right: 1rem;
+    color: rgb(255, 183, 39);
+    line-height: 0;
+    margin-left: 2.6rem;
+}
+
+.name ul li span {
+    margin-left: 1rem;
+}
+
+.smile2 li {
+
+    float: left;
+    line-height: 0;
+    color: aqua;
+
+}
+
+.smile2 {
+    padding-top: 2rem ;
+}
+
+.smile2 span {
+    font-size: 2.6rem;
+    line-height: 2rem;
+    display: block;
+    font-weight: 700;
+    color: #3b434a;
+    margin-left: 5rem;
+    float: left;
+}
+
+.smile2 p {
+    padding: 3.5rem 0 0 0;
+    margin: 0 0 0 4.5rem;
+    font-family: "Raleway", sans-serif;
+    font-size: .9rem;
+    color: #5d6a75;
+}
+
+.progress {
+    height: 3.5rem;
+    display: block;
+    background: none;
+    border-radius: 0;
+    padding-left:3.5rem;
+    padding-top: 1rem;
+    margin-top: 1rem;
+
+
+
+}
+
+.proggress span {
+    padding:1rem 0;
+    margin: 0 0 .5remx 0;
+    text-transform: uppercase;
+    display: block;
+    font-weight: 700;
+    font-family: "Raleway", sans-serif;
+    color: #3b434a;
+}
+
+/* resume  */
+.resume2 {
+    padding: 4rem 0;
+    position: relative;
+    padding-bottom: 5rem;
+}
+
+.resume3 span {
+    position: absolute;
+    top: 4rem;
+    color:  #deebf5;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    font-weight: 700;
+    font-size: 8rem;
+    text-transform: uppercase;
+    line-height: 0;
+}
+
+.resume3 h2 {
+    font-size: 6rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    padding-bottom: 0;
+    color: #3b434a;
+    position: relative;
+    z-index: 2;
+}
+
+.summary h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-top: 1.4rem;
+    margin-bottom: 1.4rem;
+    color: #3b434a;
+}
+
+.alice {
+    padding: 0 0 1.4rem 1.4rem;
+    margin-top: -.1rem;
+    border-left: .1rem solid #82909c;
+    position: relative;
+}
+
+.alice h4 {
+    line-height: 1.3rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ffb727;
+    margin-bottom: .7rem;
+}
+
+.summary h3 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-top: 1.4rem;
+    margin-bottom: 1.4rem;
+    color: #3b434a;
+}
+
+.professional h3 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-top: 1.4rem;
+    margin-bottom: 1.4rem;
+    color: #3b434a;
+
+}
+
+.alice ul {
+    padding-left: 1.4rem;
+}
+
+.alice ul li {
+    padding-bottom: .7rem;
+}
+
+/* four column  */
+.services {
+    padding-top: 4rem;
+    position: relative;
+
+
+}
+
+.service1 span {
+    position: absolute;
+    top: 4rem;
+    color:  #deebf5;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    font-weight: 700;
+    font-size: 8rem;
+    text-transform: uppercase;
+    line-height: 0;
+
+}
+
+.service1 h2 {
+    font-size:6rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 1.4rem;
+    padding-bottom: 0;
+    color: #3b434a;
+    position: relative;
+    z-index: 2;
+}
+
+.service3 {
+    padding: 2rem;
+    position: relative;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0 .7rem 2rem 0 rgb(68 88 144 / 10%);
+    transition: all 0.3s ease-in-out;
+    text-align: center;
+    border: 1px solid #fff;
+}
+
+.service3 h5 {
+    font-size: 2rem;
+    font-weight: 200;
+    line-height: 1;
+    color: #ffb727;
+    padding-bottom: 1.7rem;
+
+}
+
+.service3 p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    padding-top: .7rem;
+
+}
+
+.slider1 {
+    padding-top: 4rem;
+
+}
+
+/* pricing  */
+.pricing {
+    padding-top: 4.5rem;
+    position: relative;
+}
+
+.pricing2 span {
+    position: absolute;
+    top: 4.5rem;
+    color:  #deebf5;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    font-weight: 700;
+    font-size:8rem;
+    text-transform: uppercase;
+    line-height: 0;
+}
+
+.pricing2 h2 {
+    font-size: 6rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 1.4rem;
+    padding-bottom: 0;
+    color: #3b434a;
+    position: relative;
+    z-index: 2;
+}
+
+.pricing2 p {
+    padding-bottom: .7rem;
+}
+
+.pricing3 {
+    padding-top: 1.4rem;
+}
+
+.pricing3 h5 {
+    margin: -1.4rem -1.4rem 1.4rem -1.4rem;
+    padding: 1.4rem 1rem;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #777777;
+    background: #f8f8f8;
+
+}
+
+.pricing3 h4 {
+    font-size: 2.3rem;
+    color: #ffb727;
+    font-weight: 600;
+    font-family: "Open Sans", sans-serif;
+    margin-bottom: 1.4rem;
+    display: inline-block;
+}
+
+.pricing3 p {
+    color: #bababa;
+    font-size: 1rem;
+    font-weight: 300;
+}
+.box{
+    padding-top:0rem;
+    padding-bottom: 0rem;
+}
+
+.pricing ul {
+    padding: 0;
+    list-style: none;
+    color: #444444;
+    text-align: center;
+    line-height: 1rem;
+    font-size: .9rem;
+}
+
+.pricing ul li {
+    padding-bottom: 1rem;
+}
+
+.pricing .btn {
+    box-sizing: border-box;
+    width: 9rem;
+    height: 2.5rem;
+    color: white;
+    background-color: #df8f06;
+
+}
+
+.box h5 {
+    width: auto;
+    height: 3.5rem;
+    box-sizing: border-box;
+    color: white;
+    background-color: #df8f06;
+    justify-content: center;
+    text-align: center;
+    padding-top: .9rem;
+    margin-bottom: .6rem;
+
+}
+
+.box h4 {
+    font-size: 2.4rem;
+    color: #ffb727;
+    font-weight: 600;
+    font-family: "Open Sans", sans-serif;
+    margin-bottom:1.4rem;
+    display: inline-block;
+}
+
+.box p {
+    color: #bababa;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.box ul {
+    padding: 0;
+    list-style: none;
+    color: #444444;
+    text-align: center;
+    line-height:1.4rem;
+    font-size: .8rem;
+}
+
+.btn ul li {
+    padding-bottom:1rem;
+
+}
+
+/* contact  */
+.contact1 {
+    padding-top:9.5rem;
+    position: relative;
+
+}
+
+.contact2 span {
+
+    position: absolute;
+    padding-top: 0rem;
+    TOP: 5rem;
+    z-index: 1;
+    LEFT: 0;
+    RIGHT: 0;
+    color: #deebf5;
+    font-size: 8rem;
+    font-weight: bold;
+
+
+
+
+
+}
+#contact-box{
+    border:.1rem solid rgb(173, 167, 167) ;
+    border-color:#c2c8cc;
+    box-sizing: border-box;
+    margin-top: 1.5rem;
+    width: 100%;
+}
+
+.contact2 h2 {
+    position: relative;
+    z-index: 2;
+    color: #3b434a;
+    font-size:6rem;
+    font-weight: 700;
+    padding-bottom: .7rem;
+
+}
+
+#inputAddress2 {
+    height: 9rem;
+
+}
+.form .col-12 .btn{
+    color:white;
+    background-color: #eea208;
+}
+
+.contact5 {
+    padding-top: 1.4rem;
+
+}
+
+.contact5 a i {
+    font-size: 1.4rem;
+    color: #eea208;
+    border-radius: 50%;
+    padding: 1rem;
+    background: #fff6e4;
+
+}
+
+.contact5 h3 {
+    font-size: 1.4rem;
+    color: #777777;
+    font-weight: 700;
+    margin: 10px 0;
+    padding-top:.5rem;
+    padding-bottom:.5rem;
+}
+
+.contact5 i {
+    display: inline-block;
+    color: #687683;
+    line-height: 1;
+    margin: 0 .5rem;
+    transition: 0.3s;
+    padding: 1rem;
+    border-radius:3.2rem;
+    border: 1px solid #dde1e4;
+    font-size: 1.2rem;
+    padding-bottom: 2.5rem;
+}
+
+.contact6 a {
+    font-size: 1.7rem;
+    color: #ffb727;
+    border-radius: 50%;
+    padding: 1rem;
+    background: #fff6e4;
+}
+
+.contact6 {
+    color: #444444;
+    text-align: center;
+    box-shadow: 0 0 2rem rgb(214 215 216 / 60%);
+    padding: 4.5rem 0 2rem 0;
+}
+
+.contact6 h3 {
+    font-size: 1.4rem;
+    color: #777777;
+    font-weight: 700;
+    margin:.7rem 0;
+}
+
+.contact6 p {
+    padding: 0;
+    line-height: 1.7rem;
+    font-size: 1rem;
+    margin-bottom: 0;
+}
+
+/* footer  */
+.last{
+   
+    padding-top: 100px;
+    
+ 
+}
+.vinay{
+    /* background: #444444; */
+    width:100vw;
+    z-index: 3;
+}
+
+.footer1 {
+   
+    width: 100vw;
+    position: absolute;
+    background:  url(https://bootstrapmade.com/demo/templates/Laura/assets/img/footer-bg.jpg);
+    z-index: 5;
+    padding-top: 6rem;
+    
+    background-repeat: no-repeat;
+    background-position: cover;
+    
+   
+}
+.footer2 h3{
+    font-size: 2.3rem;
+    font-weight: 700;
+    color: #fff;
+    position: relative;
+    font-family: "Satisfy", serif;
+    padding: 0;
+    margin: 0 0 1rem 0;
+}
+.footer2 p{
+    font-style: italic;
+    padding: 0;
+    margin: 0 0 2.7rem 0;
+    color: #eef0f2;
+}
+
+.footer3  i {
+  color:#eef0f2;
+  font-size: 1.2rem;
+  margin-left: 1.7rem;
+}
+.footer4{
+    padding-top: 2rem;
+    color:white;
+    padding-bottom: 3rem;
+}
+html{
+    font: size 62.5%;;
+}
+
+
+
+/* media  */  
+
+
+
+/* media720 */
+ @media (max-width:760px){
+    html{
+        font-size:65%;
+    }
+    .row .image {
+        flex:auto;
+        width: 100%;
+        height:100%;
+    }
+    .summary{
+        flex:auto;
+        width: 100%;
+        padding-left: 4rem;
+
+    }
+    .professional{
+        flex:auto;
+        width: 100%;
+        padding-left: 4rem;
+    }
+    .service3{
+        flex:auto;
+        width: 100%;
+
+    }
+    .pricing3{
+        flex:auto;
+        width: 100%;
+    }
+    .box{
+        flex:auto;
+        width: 100%;
+    }
+    .contact4{
+        flex:auto;
+        width: 100%;
+    }
+    .form{
+        flex:auto;
+        width: 100%;
+    }
+    .about10{
+        width:100%;
+    }
+   
+}
+/* media1342 */
+@media (max-width:1342px){
+    html{
+        font-size:85%;
+    }
+    .row .image {
+        flex:auto;
+        width: 100%;
+    }
+    .summary{
+        flex:auto;
+        width: 100%;
+        padding-left: 4rem;
+
+    }
+    .professional{
+        flex:auto;
+        width: 100%;
+        padding-left: 4rem;
+    }
+    .service3{
+        flex:auto;
+        width: 100%;
+
+    }
+    .pricing3{
+        flex:auto;
+        width: 100%;
+    }
+    .box{
+        flex:auto;
+        width: 100%;
+    }
+    .contact4{
+        flex:auto;
+        width: 100%;
+    }
+    .form{
+        flex:auto;
+        width: 100%;
+    }
+    .about10{
+        width:100%;
+    }
+} 
+/* media600 */
+@media (max-width:600px){
+    html{
+        font-size:50%;
+    }
+    .row .image {
+        flex:auto;
+        width: 100%;
+        height:100%;
+    }
+    .summary{
+        flex:auto;
+        width: 100%;
+        padding-left: 4rem;
+
+    }
+    .professional{
+        flex:auto;
+        width: 100%;
+        padding-left: 4rem;
+    }
+    .service3{
+        flex:auto;
+        width: 100%;
+
+    }
+    .pricing3{
+        flex:auto;
+        width: 100%;
+    }
+    .box{
+        flex:auto;
+        width: 100%;
+    }
+    .contact4{
+        flex:auto;
+        width: 100%;
+    }
+    .form{
+        flex:auto;
+        width: 100%;
+    }
+    .about10{
+        width:100%;
+    }
+}
+
+/* media420 */
+@media (max-width:420px){
+    html{
+        font-size:35%;
+    }
+    .row .image {
+        flex:auto;
+        width: 100%;
+        height:100%;
+    }
+    .summary{
+        flex:auto;
+        width: 100%;
+        padding-left: 4rem;
+
+    }
+    .professional{
+        flex:auto;
+        width: 100%;
+        padding-left: 4rem;
+    }
+    .service3{
+        flex:auto;
+        width: 100%;
+
+    }
+    .pricing3{
+        flex:auto;
+        width: 100%;
+    }
+    .box{
+        flex:auto;
+        width: 100%;
+    }
+    .contact4{
+        flex:auto;
+        width: 100%;
+    }
+    .form{
+        flex:auto;
+        width: 100%;
+    }
+    .about10{
+        width:100%;
+    }
+}
